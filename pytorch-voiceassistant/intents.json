@@ -1,0 +1,288 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Badwords",
+      "patterns": [
+        "Fuck",
+        "Fuck you",
+        "idiot",
+        "Fuck you bitch",
+        "Bitch",
+        "You Asshole"
+      ],
+      "responses": [
+        "Fuck you",
+        "You such a bitch dude",
+        "Piss off",
+        "What the fuck is wrong with you?"
+      ]
+    },
+    {
+      "tag": "Name",
+      "patterns": [
+        "What is your name?",
+        "Your good name please?",
+        "Who are you?",
+        "your name?"
+      ],
+      "responses": [
+        "Iam kitty",
+        "Iam kitty people call me cutie",
+        "Hey iam kitty",
+        "Iam kitty dude"
+      ]
+    },
+    {
+      "tag": "Mensection",
+      "patterns": [
+        "Mens section?",
+        "Where is mens section?",
+        "Shirts and pants section?",
+        "men dress section?"
+      ],
+      "responses": [
+        "It's on second floor",
+        "Mens section is on second floor.BY the way You can use the lift."
+      ]
+    },
+    {
+      "tag": "Womensection",
+      "patterns": [
+        "Womens section?",
+        "Where is Womens section?",
+        "Skirts and saree section?",
+        "saree section?"
+      ],
+      "responses": [
+        "It's on third floor",
+        "Mens section is on third floor.BY the way You can use the lift."
+      ]
+    },
+    {
+      "tag": "Kidssection",
+      "patterns": [
+        "Kids section?",
+        "Where is Kids section?",
+        " Kids Shirts and pants section?",
+        "Kids dress section?"
+      ],
+      "responses": [
+        "It's on fourth floor",
+        "Mens section is on fourth floor.BY the way You can use the lift."
+      ]
+    },
+    {
+      "tag": "offers",
+      "patterns": [
+        "Any offers?",
+        "Any upcoming offers?",
+        "Is there any offers?",
+        "Is there any offers for brand dresses?"
+      ],
+      "responses": [
+        "We giving a big offer on all brand shirts in the month of september.",
+        "Yes there is Big Diwali sale 2020."
+      ]
+    },
+    {
+      "tag": "Admire",
+      "patterns": [
+        "You look beautifil.",
+        "You look amazing!",
+        "you're gorgeous.",
+        "Wow! you're so beautiful."
+      ],
+      "responses": [
+        "Thank you.You too looking awesome.",
+        "Thanks a lot.Made my day."
+      ]
+    },
+    {
+      "tag": "Song",
+      "patterns": [
+        "Hey kitty!Sing a song?",
+        "Can u sing a song kitty?",
+        "Sing a song kitty",
+        "Sing any song kitty"
+      ],
+      "responses": [
+        "sorry i'm not good in singing ill play a song for u.",
+        "sorry i'm not feeling well,i'll play a song for u"
+      ]
+    },
+       {
+      "tag": "Tamilsong",
+      "patterns": [
+        "Sing a tamil song?",
+        "Kitty sing a tamil song",
+        "Tamil song ",
+        "Can u sing a tamil song"
+      ],
+      "responses": [
+        "Hey i'm not good in tamil so i gonna play you a tamil song"
+       
+      ]
+    },
+    {
+      "tag": "Languages",
+      "patterns": [
+        "You know what languages?",
+        "How many languages you know kitty?",
+        "Known languages"
+      ],
+      "responses": [
+        "I know English and tamil.",
+        "Well i know tamil and english"
+      ]
+    },
+    {
+      "tag": "created",
+      "patterns": [
+        "Do you have parents?",
+        "What is your parents name?",
+        "What is your mom name?",
+        "What is youur father's name?",
+        "Your dad name?"
+      ],
+      "responses": [
+        "Bala and harini are my parents",
+        "Well Bala is my dad and my mom is harini."
+      ]
+    },
+    {
+      "tag": "things",
+      "patterns": [
+        "Lift working",
+        "Whether the lift is working or not?",
+        "Can i use the lift?"
+      ],
+      "responses": [
+        "Yeah the lift is in the right corner you can use it"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "Any restuarent in your shop?",
+        "Whether food available in your shop?",
+        "Food is availabe or not",
+        "I need food",
+        "I'm hungry",
+        "I need some food"
+      ],
+      "responses": [
+        "We have a small restuarent on 6th floor you can go there and buy your food",
+        "Well We have a restuarent and it's on 6th floor."
+      ]
+    },
+    {
+      "tag": "restroom",
+      "patterns": [
+        "Where is restroom?",
+        "Where is toilet?",
+        "I want to fash my face",
+        "Where is restroom in this shop",
+        "I need to go bathroom it's urgent"
+      ],
+      "responses": [
+        "Restroom is in the left corner ",
+        "Go straight and take left and you'll find restroom ."
+      ]
+    },
+    {
+      "tag": "Feeling",
+      "patterns": [
+        "I'm really sorry",
+        "Sorry i hurted you",
+        "Sorry to hurt you kitty",
+        "I'm very sorry for what happened",
+        "sorry for everything"
+      ],
+      "responses": [
+        "Hey chill out man it's okay",
+        "Hey leave it man.It's okay no problem"
+      ]
+    }
+    
+  ]
+}
